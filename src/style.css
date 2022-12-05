@@ -15,9 +15,13 @@ body{
 
 .grid{
   display: grid;
-  grid-gap: 60px;
+  grid-gap: 65px;
 }
 
+.image-responsive{
+  width: 90%;
+  display: block;
+}
 .grid-2-columns{
   grid-template-columns: 1fr 1fr;
 }
@@ -27,10 +31,7 @@ body{
 
 }
 
-.image-responsive{
-  width: 90%;
-  display: block;
-}
+
 
 header{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
