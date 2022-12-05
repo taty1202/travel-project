@@ -71,6 +71,11 @@ body{
   text-decoration: none;
 }
 
+.embed{
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 header{
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
    url('../images/hero-image.png');
