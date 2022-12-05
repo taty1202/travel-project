@@ -13,8 +13,14 @@ body{
   margin: 0 auto;
 }
 
+.grid{
+  display: grid;
+  grid-gap: 60px;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
    url('../images/hero-image.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,6 +67,42 @@ header a{
   letter-spacing: 3px;
   text-transform: uppercase;
   
+}
+
+footer{
+  background-image: linear-gradient(rgba(39,32,68,0.8), rgba(39,32,68,0.8)), url('../images/footer-image.png');
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a{
+  color: white;
+  opacity: 0.7;
+}
+
+footer h3{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+footer p{
+font-weight: 400;
+font-size: 16px;
+opacity: 0.7;
+line-height: 24px;
 }
 
 @media(max-width: 900px) {
