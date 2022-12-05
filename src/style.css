@@ -1,4 +1,79 @@
 :root{
   --default-font-family: "Poppins", sans-serif;
+  --background-color: #272044;
 }
 
+body{
+  font-family: var(--default-font-family);
+  background: var(--background-color);
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),
+   url('../images/hero-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 210px 0;
+
+}
+
+header h1{
+  margin: 30px 0;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+}
+
+header h2{
+margin: 0;
+font-weight: 400;
+font-size: 40px;
+line-height: 1.5;
+
+}
+header h3{
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+
+}
+
+header a{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--background-color);
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  text-decoration: none;
+  background: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+}
+
+@media(max-width: 900px) {
+  header{
+    padding: 60px 0;
+  }
+  header h1{
+    font-size: 48px;
+  }
+  header h2{
+    font-size: 20px;
+  }
+  header h3{
+    font-size: 12px;
+  }
+}
