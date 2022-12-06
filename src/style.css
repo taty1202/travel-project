@@ -76,8 +76,9 @@ body{
   aspect-ratio: 1/1;
 }
 
-.italy-pics{
+.italy-pics img{
   margin: 30px 0;
+  filter: brightness(1) saturate(3);
 }
 
 header{
